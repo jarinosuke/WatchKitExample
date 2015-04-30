@@ -12,6 +12,14 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var label: WKInterfaceLabel!
+    
+    override init () {
+        super.init()
+        
+        label.setText("AWESOME")
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
