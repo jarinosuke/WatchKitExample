@@ -41,4 +41,10 @@ class InterfaceController: WKInterfaceController {
     @IBAction func yesButtonTapped() {
     }
     
+    @IBAction func menuATapped() {
+    }
+    @IBAction func menuBTapped() {
+    }
+    @IBAction func menuCTapped() {
+    }
 }
