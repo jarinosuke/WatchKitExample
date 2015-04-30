@@ -36,4 +36,9 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    // MARK: Button Action
+    
+    @IBAction func yesButtonTapped() {
+    }
+    
 }

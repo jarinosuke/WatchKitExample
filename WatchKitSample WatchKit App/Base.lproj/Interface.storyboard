@@ -11,6 +11,11 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitSample_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label alignment="left" text="FUCK" id="U7V-oD-qDy"/>
+                        <button width="1" alignment="left" title="YES" id="gBv-Ds-FHq">
+                            <connections>
+                                <action selector="yesButtonTapped" destination="AgC-eL-Hgc" id="mlc-W3-2Um"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="label" destination="U7V-oD-qDy" id="8sX-aO-j8j"/>
